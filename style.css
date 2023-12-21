@@ -1,12 +1,14 @@
-body, html {
+html {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
 }
 
-/* Custom styles */
+
 body {
-    background-color: #f4f4f4; /* Light grey background */
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    padding: 20px;
 }
 
 header {
@@ -88,3 +90,52 @@ header {
 .gallery__img:hover {
     transform: scale(1.1);
 }
+
+
+.contact-container {
+    background-color: white;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* Makes sure the input width stays within the container */
+}
+
+.form-group textarea {
+    height: 150px;
+    resize: vertical; /* Allows the user to resize the textarea vertically */
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
